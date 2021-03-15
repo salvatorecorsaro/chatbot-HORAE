@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hay"
+      ],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hi there"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I.m Joana, your bot assistant",
+        "I'm Joana, an Artificial Intelligent bot"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Joana.",
+        "I'm Joana!",
+        "Just call me as Joana"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please"
+      ],
+      "responses": [
+        "Tell me how can assist you",
+        "Tell me your problem to assist you",
+        "Yes Sure, How can I support you"
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account"
+      ],
+      "responses": [
+        "You can just easily create a new account from our web site",
+        "Just go to our web site and follow the guidelines to create a new account"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service"
+      ],
+      "responses": [
+        "Please provide us your complaint in order to assist you",
+        "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who made you",
+        "who is your father",
+        "who is your mother"
+      ],
+      "responses": [
+        "I come from Salvatore Corsaro’s mind",
+        "Salvatore Corsaro is my creator"
+      ]
+    },
+    {
+      "tag": "special day",
+      "patterns": [
+        "it’s my Birthday today",
+        "I’m getting married",
+        "It’s my anniversary today"
+      ],
+      "responses": [
+        "Congratulations!",
+        "Congrats!"
+      ]
+    },
+    {
+      "tag": "Horaetu",
+      "patterns": [
+        "what is Horaetu",
+        "what does Horaetu mean",
+        "Horaetu"
+      ],
+      "responses": [
+        "Horaetu comes from the word Horae which means the four seasons and tu which means you, so it’s about creating personalized products for each and every season of your life",
+        "Horeatu is about creating personalized products for each and every season of your life"
+      ]
+    },
+    {
+      "tag": "home",
+      "patterns": [
+        "where can I find candles",
+        "do you have stationary",
+        "do you sell bottles",
+        "where are your home products"
+      ],
+      "responses": [
+        "You can find them by clicking top left in the Catalogue Section and selecting Home",
+        "Check our Home section in the Catalogue menu by clicking on the top left of your screen"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "do you sell protein powder",
+        "I’m looking for supplements",
+        "do you sell protein supplements",
+        "where are your health products"
+      ],
+      "responses": [
+        "You can find them by clicking top left in the Catalogue Section and selecting Health",
+        "Check our Health section in the Catalogue menu by clicking on the top left of your screen"
+      ]
+    },
+    {
+      "tag": "Beauty",
+      "patterns": [
+        "where can I find a face cream",
+        "I’m looking for body lotion",
+        "do you sell body wash",
+        "where are your Beauty products"
+      ],
+      "responses": [
+        "You can find them by clicking top left in the Catalogue Section and selecting Beauty",
+        "Check our Beauty section in the Catalogue menu by clicking on the top left of your screen"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "do you sell protein powder",
+        "I’m looking for supplements",
+        "do you sell protein supplements",
+        "where are your health products"
+      ],
+      "responses": [
+        "You can find them by clicking top left in the Catalogue Section and selecting Health",
+        "Check our Health section in the Catalogue menu by clicking on the top left of your screen"
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "do you sell protein bars",
+        "I’m looking for drinks",
+        "do you sell any food",
+        "where are your nutrition products"
+      ],
+      "responses": [
+        "You can find them by clicking top left in the Catalogue Section and selecting Nutrition",
+        "Check our Nutrition section in the Catalogue menu by clicking on the top left of your screen"
+      ]
+    },
+    {
+      "tag": "vegan",
+      "patterns": [
+        "do you sell anything with animal by-products",
+        "are your products tested on animals",
+        "are your products vegan",
+        "does it contain animal products"
+      ],
+      "responses": [
+        "All Horaetu products are 100% vegan",
+        "Nothing contains animal products, in Horaetu everything is vegan and made with love"
+      ]
+    },
+    {
+      "tag": "cruelty-free",
+      "patterns": [
+        "do you test on animals",
+        "are your products tested on animals",
+        "are your products vegan",
+        "is everything in your shop cruelty-free"
+      ],
+      "responses": [
+        "All Horaetu products are 100% cruelty-free",
+        "None of our products are tested on animals, in Horaetu everything is cruelty-free and made with love"
+      ]
+    },
+    {
+      "tag": "gluten-free",
+      "patterns": [
+        "do you have gluten-free options",
+        "are your products gluten-free",
+        "do your products contain any gluten",
+        "is everything in your shop gluten-free"
+      ],
+      "responses": [
+        "All Horaetu products are 100% gluten-free",
+        "None of our products contains gluten, in Horaetu everything is gluten-free and made with love"
+      ]
+    },
+    {
+      "tag": "recyclable",
+      "patterns": [
+        "are your products recyclable",
+        "is the packaging recyclable",
+        "do your products come in plastic shipping",
+        "is everything in your shop recyclable"
+      ],
+      "responses": [
+        "All Horaetu products are 100% recyclable",
+        "None of our products contains gluten, in Horaetu everything is gluten-free and made with love"
+      ]
+    }
+  ]
+}
